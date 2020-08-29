@@ -1,0 +1,6 @@
+classes= 1
+train  = data/land_list_train.txt
+valid  = data/test.txt
+names = lspot/obj.names
+backup = backup/
+
