@@ -275,7 +275,7 @@ void draw_detections_v3(image im, detection *dets, int num, float thresh, char *
 			rgb[1] = green;
 			rgb[2] = blue;
 			box b = dets[i].bbox;
-			//printf("%f %f %f %f\n", b.x, b.y, b.w, b.h);
+			printf("%f %f %f %f\n", b.x, b.y, b.w, b.h); //uncommented by Manish
 
 			int left = (b.x - b.w / 2.)*im.w;
 			int right = (b.x + b.w / 2.)*im.w;
